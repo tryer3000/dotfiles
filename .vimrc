@@ -111,5 +111,9 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/*
 
+""" NERDTree
+let NERDTreeIgnore=['^\.$', '\~$', '\.pyc$']
+
+
 """
 map <C-n> :NERDTreeToggle<CR>
