@@ -15,6 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
@@ -52,12 +53,10 @@ filetype plugin indent on    " required
 """ dyb
 set nowrap
 set nowrapscan
-set expandtab
-set shiftwidth=0
 set tabstop=4
-set smarttab
+set expandtab
+set shiftwidth=4
 set fdm=indent
-set bs=2
 set hlsearch
 syntax on
 let mapleader=","
