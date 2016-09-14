@@ -83,3 +83,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim='docker run -ti --rm -v "${PWD}":/home/developer/workspace -v "${HOME}/.vimx/":/ext jare/vim-bundle'
+
+source ~/.local/bin/virtualenvwrapper.sh
