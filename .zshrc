@@ -86,3 +86,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim='docker run -ti --rm -v "${PWD}":/home/developer/workspace -v "${HOME}/.vimx/":/ext jare/vim-bundle'
 
 # source ~/.local/bin/virtualenvwrapper.sh
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
+eval $(thefuck --alias)
